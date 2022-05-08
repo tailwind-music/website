@@ -1986,6 +1986,45 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
+
+.where-we {
+  font-size: 20px;
+}
+
+
+.box1 {
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-color: rgba(0,0,0,.5);
+  border-width: 1px;
+}
+
+.box2 {
+  border-bottom-style: solid;
+  border-color: rgba(0,0,0,.5);
+  border-width: 1px;
+}
+
+.box3 {
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-color: rgba(0,0,0,.5);
+  border-width: 1px;
+}
+
+.box4 {
+  border-bottom-style: solid;
+  border-color: rgba(0,0,0,.5);
+  border-width: 1px;
+}
+
+@media (min-width: 1412px) {
+  .new-col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
 .table {
   --bs-table-bg: transparent;
   --bs-table-accent-bg: transparent;
@@ -8059,6 +8098,10 @@ textarea.form-control-lg {
 .bg-black {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-custom {
+  background: rgba(0,0,0,.8);
 }
 
 .bg-white {
