@@ -11708,7 +11708,8 @@ body {
 .new-about-section {
   padding-top: 10rem;
   background: black;
-  /*background: rgba(0,0,0,.75);*/
+    /*background: rgba(0,0,0,.75);*/
+
   padding-bottom: 85px;
 }
 .new-about-section p {
