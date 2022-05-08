@@ -11639,7 +11639,8 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 45%, rgba(0, 0, 0, 0.75) 100%);
+  background: black;
+  /*background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 45%, rgba(0, 0, 0, 0.75) 100%);*/
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -11706,7 +11707,8 @@ body {
 
 .new-about-section {
   padding-top: 10rem;
-  background: rgba(0,0,0,.75);
+  background: black;
+  /*background: rgba(0,0,0,.75);*/
   padding-bottom: 85px;
 }
 .new-about-section p {
