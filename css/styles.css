@@ -155,7 +155,7 @@ nav {
 }
 
 .about-section img {
-  vertical-align: top;
+  vertical-align: top !important;
 }
 
 hr {
