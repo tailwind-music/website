@@ -7,6 +7,7 @@
         <meta name="author" content="" />
         <title>Tailwind Music</title>
         <link rel="icon" type="image/x-icon" href="assets/paper-plane.png" />
+
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -17,7 +18,7 @@
         <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+        <link rel="stylesheet" href="flickity-docs/flickity.css" media="screen">
 
 
 
@@ -34,6 +35,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#new-about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Blog</a></li>
                         <li class="nav-item"><a class="nav-link" href="#shows">Shows</a></li>
                         <li class="nav-item"><a class="nav-link" href="#merch">Merch</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
@@ -55,14 +57,18 @@
         </header>-->
         <!-- About-->
         <section class="about-section" id="about">
-            <div class="text-center container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="band-description">
-                        <h2 class="text-white-70 mb-4">A Boston-based folk-funk jam band.</h2>
+            <div class="text-center">
+                <!--<div class="row gx-4 gx-lg-5 justify-content-center">-->
+                    <div class="cover-padding">
+                        <p></p>
+                        <!--<h2 class="text-white-70">A Boston-based funk-soul jam band.</h2>-->
                     </div>
-                </div>
+                    <div class="band-description">
+                        <h2 class="text-white">A Boston-based funk-soul jam band.</h2>
+                    </div>
+                <!--</div>-->
             </div>
-            <img class="img-fluid plane-image" src="assets/img/white-rotated.png" alt="..." />
+            <img class="img-fluid plane-image" src="images/image001.png" alt="..." />
         </section>
 
         <section class="new-about-section" id="new-about">
@@ -70,55 +76,300 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
                     <h1 class="text-white mb-5 text-center">About Us</h1>
                     <p class="text-white-70">
-                        After playing together for years, multi-instrumentalist Josh Talbot and guitarist Ray Wynne formed the jam band Tailwind in 2021. The formation of the group was inspired by the duo's desire to put forth their original music and involve their Boston-based musician-friends in their craft. Drawing influence from a variety of artists, including Tom Misch, Cory Wong, and Simon and Garfunkel, Tailwind cultivates a unique "folk-funk" sound, mixing down-to-earth acoustics with funky rhythms and riffs.
+                        <!--After playing together for years, multi-instrumentalist Josh Talbot and guitarist Ray Wynne formed the jam band Tailwind in 2021. The formation of the group was inspired by the involve their Boston-based musician-friends in their craft. Drawing influence from a variety of artists, including Tom Misch, Cory Wong, and Simon and Garfunkel, Tailwind cultivates a unique "folk-funk" sound, mixing down-to-earth acoustics with funky rhythms and riffs.-->
+                        After playing together for years, multi-instrumentalist Josh Talbot and guitarist Ray Wynne formed the jam band Tailwind in 2021 to involve their Boston-based musician-friends in their craft. They have since been joined by drummer Marisa Gaetz, guitarist Trevor Ewald, vocalist Quinn Brodsky, and keyboardist Dominik Martinez. Drawing influence from a variety of artists, including Cory Wong, Lawrence, and Sammy Rae & The Friends, Tailwind cultivates a unique "funk-soul" sound, backing Quinn's soulful vocals with funky rhythms and riffs.
                     </p>
                     <p class="text-white-70">
-                        A recent addition to the Boston-Cambridge music scene, Tailwind is already generating local excitement. Since winning MIT's 2022 SpringFest Showcase, Tailwind is gaining headway by playing at a variety of local venues (see <a href="#shows">upcoming shows</a> below) and is excited to release their debut singles this summer.
+                        A recent addition to the Boston-Cambridge music scene, Tailwind is already generating local excitement. Since winning MIT's 2022 SpringFest Showcase, Tailwind is gaining headway by playing at a variety of local venues (see <a href="#shows">upcoming shows</a> below) and is excited to release their debut singles in the coming months.
                     </p>
                 </div>
+                <div class="text-white-70 text-center" style="padding-bottom: 85px;">
+                    Quinn Brodsky - Vocals <br>
+                    Trevor Ewald - Lead Guitar <br>
+                    Ray Wynne - Rhythm Guitar <br>
+                    Dominik Martinez - Keys <br>
+                    Josh Talbot - Bass <br>
+                    Marisa Gaetz - Drums
+                </div>
+                <!--
                 <div class="row text-white-70 text-center" style="padding-bottom: 85px;">
                     <div class="col-md-6">Ray Wynne - Rhythm Guitar <br> Josh Talbot - Bass & Trumpet <br> Marisa Gaetz - Drums </div>
                     <div class="col-md-6">Trevor Ewald - Lead Guitar & Saxophone <br> Quinn Brodsky - Vocals <br> Rokas Veitas - Vocals & Bass</div>
                 </div>
+            -->
             </div>
 
-            <div class="row" style="margin-left: 40px; margin-right: 40px;">
-                    <div class="col-lg-6 videos text-center"><iframe id="video1" src="https://www.youtube.com/embed/R4uCyicukgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                    <div class="col-lg-6 videos text-center"><iframe id="video2" src="https://www.youtube.com/embed/bqoqlVnQHBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
+            <div class="row">
+                    <div class="col-lg-4 videos video1"><iframe src="https://www.youtube.com/embed/R4uCyicukgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="col-lg-4 videos text-center"><iframe src="https://www.youtube.com/embed/qfrv4Pw5IPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> 
+                    <div class="col-lg-4 videos video2"><iframe src="https://www.youtube.com/embed/bqoqlVnQHBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                 </div>
         </section>
 
+<!-- Blog -->
+        <section class="blog-section" id="portfolio">
+            <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                    <h1 class="mb-5 text-center">Blog</h1>
+            </div>
+
+            <div class="row special" style="margin-top:40px">
+                    <div class="col-lg-4 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="images/image2 cropped.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Ray & Josh Join PeaceWorks Delegation</div>
+                                <div class="portfolio-caption-subheading text-muted">Nicaragua - June 2022</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="images/quinn1 cropped.JPG" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Quinn Sings at MIT's 2022 Commencement</div>
+                                <div class="portfolio-caption-subheading text-muted">Cambridge, MA - May 2022</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="images/sp1 cropped.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Tailwind Wins SpringFest Student Showcase</div>
+                                <div class="portfolio-caption-subheading text-muted">Cambridge, MA - April 2022</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="images/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-center">Ray & Josh Join PeaceWorks Delegation</h2>
+                                    <p class="item-intro text-muted text-center">Nicaragua - June 2022</p>
+                                    
+                                    <!-- Flickity HTML init -->
+
+
+                                    <div class="carousel js-flickity" data-flickity='{ "wrapAround": true }' style="margin-bottom:40px">
+                                      <!-- images from unsplash.com -->
+                                      <div class="carousel-cell rj">
+                                        <!--<source media="(max-width: 499px)" srcset="assets/img/whynow-small.png">
+                                        <source media="(min-width: 500px)" srcset="assets/img/whynow.png">-->
+                                        <img src="images/image2.jpg" alt="orange tree" />
+                                      </div>
+                                      <div class="carousel-cell rj">
+                                        <img src="images/image1.jpg" alt="submerged" />
+                                      </div>
+                                      <div class="carousel-cell rj">
+                                        <img src="images/image3.jpg" alt="look-out" />
+                                      </div>
+                                      <div class="carousel-cell rj">
+                                        <img src="images/image4.jpg" alt="look-out" />
+                                      </div>
+                                      <div class="carousel-cell rj">
+                                        <img src="images/image5.jpg" alt="look-out" />
+                                      </div>
+                                    </div>
+
+                                    <br>
+                                    <p class="text-muted"><em>A reflection from Ray & Josh on joining PeaceWork's delegation to Inijambia in Nicaragua:</em></p>
+
+                                    <p>Within hours of landing in Nicaragua’s capital city of Managua, we were welcomed by Lester, the music director at <em>Inijambia</em>. <em>Inijambia</em> is a program to provide shelter and education for street children in the city. Lester brought two “loaner” guitars to use during our two-week delegation.  We immediately started playing.</p>
+
+                                    <p>The next night at San Jose de Cusmapa, several music teachers in town performed traditional songs for us. In return, much to their surprise, we played traditional “Nica” songs with John (a folk guitarist and member of the Peaceworks delegation), including Nicaragua, Nicaraguita. Everyone joined in for an impromptu La Bamba/Twist and Shout jam.</p>
+
+                                    <p>At <em>Inijambia</em>, the “Coro Jim Burchell” performed with four <em>Inijambia</em> graduates who spoke about the opportunities <em>Inijambia</em> has provided them.  Later in the afternoon, “7dtta” <em>Inijambia</em>’s first rock band, played a set that included Pink Floyd and Eric Clapton.</p>
+
+                                    <p>In return, we took the stage with a little help from Juan, <em>Inijambia</em>’s 14-year old resident drummer.  Our set included a mix of jazz covers, our own Tailwind originals and even a couple of songs they taught us in San Jose de Cusmapa. We finished the set with a La Bamba jam, for which everyone got up dancing…at least until our hands were sore from playing.</p>
+
+                                    <p>Back here in Boston we’re hoping to continue to build on the musical connections we made in Nicaragua and the solidarity between Tailwind and our new Nicaraguan <em>compañeros</em>.</p>
+                                    <div class="text-center">
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close Story
+                                    </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="images/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-center">Quinn Sings at MIT Commencement</h2>
+                                    <p class="item-intro text-muted text-center">Cambridge, MA - May 2022</p>
+
+                                    <!-- Flickity HTML init -->
+                                    <div class="carousel js-flickity" data-flickity='{ "wrapAround": true }' style="margin-bottom:40px">
+                                      <!-- images from unsplash.com -->
+                                      <div class="carousel-cell rj">
+                                        <img src="images/quinn1.JPG" alt="orange tree" />
+                                      </div>
+                                      <div class="carousel-cell rj">
+                                        <img src="images/quinn2.JPG" alt="submerged" />
+                                      </div>
+                                    </div>
+                                    <br>
+                                    <p class="text-muted"><em>A reflection from Quinn on singing at MIT's 2022 Commencement:</em></p>
+
+                                    <p>At MIT’s 2022 Commencement, I performed “Hypotheticals” by Lake Street Dive alongside a jazz ensemble (Dominic Skinner, Nico Fine, Ellie Prune, and Sebastian Franjou) in front of a crowd of 5,000 people consisting of MIT graduates and their families.</p>
+
+                                    <p>I chose this particular song because I wanted to communicate to my class that the idea that we need to have things figured out at this point in our life is a myth, and sometimes a harmful one. What we should be doing at this point of transition is getting excited about all the possibilities ahead of us. This can be scary, since the world expects us to find a lucrative career and settle down as soon as humanly possible, but that’s no fun if you feel bottlenecked into a certain life without exploring your options. This song celebrates the not-knowing, the uncertainty, the “Hypotheticals”, and makes it into something exciting, even if it’s got a hint of scary to it. We’re not supposed to know what to do with our lives! Is anyone supposed to know? Probably not, and this song says that’s ok!</p>
+
+                                    <p>In the weeks leading up to the performance, I rehearsed with the director of the MIT Vocal Jazz Ensemble, Laura Jaye, and the director of the Festival Jazz Ensemble, Frederick Harris, two of the most supportive and important musical leaders at the institute. They helped me shape my act into something that would be memorable for the graduates and their families.</p>
+
+                                    <p>Laura has a tie to the original artists responsible for Hypotheticals - at the New England Conservatory, Laura studied under Dominique Eade, who was also the mentor for Rachel Price, the front woman of Lake Street Dive. Laura has a particular knack for vocal intention, shaping my phrases, dynamics, and even rests and breaths in a way that is true to the original — and after studying with Laura for a year, she has a close understanding of my natural tone and was able to provide advice to best complement my voice.</p>
+
+                                    <p>The day before the performance, I made my way across campus to the tent constructed on Briggs Field. With MIT’s dollars behind the spectacle, the sound quality in the outdoor tent exceeded my expectations - you could hear the song perfectly clearly no matter your position in the giant tent. The musicians were tight and we immediately pulled out a decent rendition of the song. After an afternoon of practice, we were ready to play.</p>
+
+                                    <p>The next morning, I prepared for both my performance and my own graduation, my exodus from the hell-hole/heaven that is MIT (IHTFP), my home for 4 years and the place where I met my closest friends, my bandmates, my problem set buddies and made connections that will last for the rest of my life. Emotions were running high - the bittersweet feeling of leaving home and the butterflies of performing in front of the biggest crowd I’d ever faced. But I trusted myself and my band, and I knew my friends and family, including Tailwind’s very own Ray and Josh, were in the audience rooting for me.</p>
+
+                                    <p>After a speech or two, I began my performance (which you can watch <a href="https://youtu.be/H2fq1-HLwQU?t=1594">here</a>!). It was exhilarating, and I hope that after watching it you feel as excited for the future as I do!</p>
+
+                                    <div class="text-center">
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close Story
+                                    </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="images/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-center">Tailwind Wins MIT SpringFest Student Showcase</h2>
+                                    <p class="item-intro text-muted text-center">Cambridge, MA - April 2022</p>
+
+                                    <!-- Flickity HTML init -->
+                                    <div class="carousel js-flickity" data-flickity='{ "wrapAround": true }' style="margin-bottom:40px">
+                                      <!-- images from unsplash.com -->
+                                      <div class="carousel-cell rj">
+                                        <img src="images/sp1 cropped.jpg" alt="orange tree" />
+                                      </div>
+                                      <div class="carousel-cell rj">
+                                        <img src="images/sp7.jpg" alt="submerged" />
+                                      </div>
+                                      <div class="carousel-cell rj">
+                                        <img src="images/sp13.jpg" alt="look-out" />
+                                      </div><!--
+                                      <div class="carousel-cell sp">
+                                        <img src="images/sp14.jpg" alt="look-out" />
+                                      </div>-->
+                                      <div class="carousel-cell rj">
+                                        <img src="images/sp17.jpg" alt="look-out" />
+                                      </div>
+                                      <div class="carousel-cell rj">
+                                        <img src="images/tai verdes cropped.JPG" alt="look-out" />
+                                      </div>
+                                    </div>
+                                    <br>
+                                    <p class="text-muted"><em>A reflection from Tailwind on winning MIT's 2022 SpringFest Student Showcase:</em></p>
+
+                                    <p>At MIT's 2022 SpringFest Student Showcase, we were the first of the 15 acts to perform. These other acts included dancers, comedians, and musicians. As students gathered on Kresge Oval to watch all of the performances, we kicked off our 2-song set with a Tailwind original song, "Parts Unknown." Since this song includes a vocal duet, Quinn was joined by our friend Rokas Veitas to sing the song. This was our first time playing "Parts Unknown" in front of an audience, so we were incredibly excited to see the audience engage with the music and dance along.</p>
+
+                                    <p>After "Parts Unknown," we played "Kick It To Me" by Sammy Rae & The Friends. For this song, Josh and Trevor traded their usual instruments (bass and lead guitar) for trumpet and saxophone, and Rokas filled in on bass. Like "Parts Unknown," this song seemed to be a big hit with the audience.</p>
+
+                                    <p>After our performance, audience members had an opportunity to vote for us and rate our performance. We were then able to sit back an enjoy the other very talented performers!</p>
+
+                                    <p>The next day, once the SpringFest organizers had an opportunity to tally all of the votes, it was announced that we had been voted the fan-favorite! Because of this, Ray and Josh were lucky enough to have the opportunity to meet the SpringFest headliner, Tai Verdes. We were very honored to be chosen as fan-favorite, and we are excited for more performance opportunities at MIT!</p>
+
+                                    <div class="text-center">
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close Story
+                                    </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
 
 
         <!-- Projects-->
-        <section class="projects-section bg-light" id="shows">
+        <section class="projects-section" id="shows">
             <div class="container-new px-4 px-lg-5">
                 <!-- Featured Project Row-->
                 <div class="row gx-0 align-items-center" style="margin-bottom: 80px;">
-                    <h1 class="text-center mb-5">Shows</h1>
-                    <div class="col-xl-7 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/Ray and Josh Cropped.jpg" alt="..." /></div>
+                    <h1 class="text-center text-white mb-5">Shows</h1>
+                    <div class="col-xl-7 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="images/rj2.jpg" alt="..." /></div>
                     <div class="col-xl-5 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4 style="font-weight: 600; font-size:2.25rem;">Now Accepting Gigs!</h4>
-                            <p class="text-black-50 mb-0">From stripped-down acoustic sets to full-band funk jams, Tailwind can fit the vibe you're looking for. Email <a href="mailto:tailwind.music.official@gmail.com">tailwind.music.official@gmail.com</a> to book us today.</p>
+                            <h4 class="text-white" style="font-weight: 600; font-size:2.25rem;">Now Booking Gigs!</h4>
+                            <p class="text-white-70 mb-0">From stripped-down acoustic sets to full-band funk jams, Tailwind can fit the vibe you're looking for. Email <a href="mailto:tailwind.music.official@gmail.com">tailwind.music.official@gmail.com</a> to book us today.</p>
                         </div>
                         <!--<img style="width: 85%;" class="img-fluid" src="assets/img/white-rotated.png" alt="..." />-->
 
                     </div>
                 </div>
+            </div>
                 <!-- Project One Row-->
                 <div class="row gx-0 mb-0 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6 box1"><img class="img-fluid" src="assets/img/SpringFest full band.png" alt="..." /></div>
+                    <div class="col-lg-6 box1"><img class="img-fluid" src="images/sp1 cropped.jpg" alt="..." /></div>
 
                     <div class="col-lg-6 box2">
                         <div class="bg-black h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-lg-left">
                                     <h4 class="text-white text-center mb-4">Where We're Going</h4>
-                                    <p class="text-center text-white-70 where-we">We are currently recording our debut singles. We'll be playing more gigs in the fall!</p><br>
+                                    <!--<p class="text-center text-white-70 where-we">We are currently recording our debut singles. We'll be playing more gigs in the fall!</p><br>-->
 
-                                    <!--<p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> <a href="https://www.lilypadinman.com/home/2021/7/7/the-lilypad-variety-show-lnr2h-yf7zg-ddd7r-ez8mw-rsk7c-yaxec-f6cmd-m3a9m-acnt8-3prfx-p27dm-pcsl8">The Lilypad Variety Show</a> - Cambridge, MA - May 18 at 10pm ($5 @ Door)</p><br>-->
+                                    <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> <a href="https://fb.me/e/2cDUMntyb">MIT FredFest</a> - Cambridge, MA - Oct 7 at 8pm</p><br>
+                                    <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> <a href="https://www.aeronautbrewing.com/">Aeronaut Brewing Co.</a> - Somerville, MA - Jan 7 at 7pm</p><br>
+                                    <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> <a href="https://www.aeronautbrewing.com/">Aeronaut Brewing Co.</a> - Somerville, MA - Jan 26 at 7pm</p><br>
                                     <!--<hr class="d-none d-lg-block mb-0 ms-0" />-->
                                 </div>
                             </div>
@@ -127,7 +378,7 @@
                 </div>
                 <!-- Project Two Row-->
                 <div class="row gx-0 justify-content-center">
-                    <div class="new-col-lg-6 box4"><img class="img-fluid" src="assets/img/Josh Trumpet Cropped.JPG" alt="..." /></div>
+                    <div class="new-col-lg-6 box4"><img style="height: 100%;" class="img-fluid" src="images/rj1.JPEG" alt="..." /></div>
 
                     <div class="new-col-lg-6 order-lg-first box3">
                         <div class="bg-black h-100 project">
@@ -151,44 +402,46 @@
                                 </div>
                                 <div class="project-text w-100 my-auto text-lg-right hide-show-2">
                                     <h4 class="text-white text-center mb-4">Where We've Been</h4>
-                                    <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> PeaceWorks 30th Anniversary - Chatham, NJ - 9/17/22</p><br>
-                                    <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> PeaceWorks Solidarity Roast - Chatham, NJ - 7/9/22</p><br>
-                                    <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> The Lilypad Variety Show - Cambridge, MA - 5/18/22</p><br>
-                                    <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> PorchFest - Somerville, MA - 5/14/22</p><br>
-                                    <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> GSC Acoustic Grillout - Cambridge, MA - 5/11/22</p><br>
-                                    <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> MIT SpringFest Showcase - Cambridge, MA - 4/29/22</p><br>
-                                    <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> The Bebop - Boston, MA - 4/12/22</p><br>
-                                    <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> GSC Battle of the Bands - Cambridge, MA - 4/1/22</p><br>
-                                    <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> The Bebop - Boston, MA - 3/22/22</p><br>
-                                    <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> The Bebop - Boston, MA - 2/24/22</p><br>
-                                    <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> Club Passim - Cambridge, MA - 2/15/22</p><br>
-                                    <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> The Bebop - Boston, MA - 9/23/21</p><br>
-                                    <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> The Bebop - Boston, MA - 8/12/21</p><br>
+                                    <p class="hanging text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> PeaceWorks 30th Anniversary - Chatham, NJ - 9/17/22</p><br>
+                                    <p class="hanging text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> PeaceWorks Solidarity Roast - Chatham, NJ - 7/9/22</p><br>
+                                    <p class="hanging text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> The Lilypad Variety Show - Cambridge, MA - 5/18/22</p><br>
+                                    <p class="hanging text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> PorchFest - Somerville, MA - 5/14/22</p><br>
+                                    <p class="hanging text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> GSC Acoustic Grillout - Cambridge, MA - 5/11/22</p><br>
+                                    <p class="hanging text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> MIT SpringFest Showcase - Cambridge, MA - 4/29/22</p><br>
+                                    <p class="hanging text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> The Bebop - Boston, MA - 4/12/22</p><br>
+                                    <p class="hanging text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> GSC Battle of the Bands - Cambridge, MA - 4/1/22</p><br>
+                                    <p class="hanging text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> The Bebop - Boston, MA - 3/22/22</p><br>
+                                    <p class="hanging text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> The Bebop - Boston, MA - 2/24/22</p><br>
+                                    <p class="hanging text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> Club Passim - Cambridge, MA - 2/15/22</p><br>
+                                    <p class="hanging text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> The Bebop - Boston, MA - 9/23/21</p><br>
+                                    <p class="hanging text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> The Bebop - Boston, MA - 8/12/21</p><br>
                                     <hr class="d-none d-lg-block mb-0 me-0" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            <!--</div>-->
         </section>
+
+        
 
         <!-- Merch -->
         <section class="merch-section text-center" id="merch">
             
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <h1 class="text-white mb-5">Merch</h1>
-                    <p style="padding-bottom: 65px;" class="text-white-70">
-                        Stickers are available for $1 each at all of our live shows. T-shirts will also be available soon for $20 each!     
+                    <h1 class="mb-5">Merch</h1>
+                    <p style="padding-bottom: 65px;">
+                        Stickers and T-shirts are available for purchase at all of our live performances!     
                     </p>
                 </div> 
             </div>
             <div class="row" style="margin-left:20px; margin-right:20px;">
-                <div class="col-md-3 dimmed"><img src="assets/img/white-shirt.JPG" width="90%"></div>
-                <div class="col-md-3"><img src="assets/img/black-white-circle.JPG" width="90%"></div>
-                <div class="col-md-3"><img src="assets/img/white-black-circle.JPG" width="90%"></div>
-                <div class="col-md-3"><img src="assets/img/black-shirt.JPG" width="90%"></div>
+                <!--<div class="col-md-3 dimmed"><img src="assets/img/white-shirt.JPG" width="90%"></div>-->
+                <div class="col-md-4"><img src="images/shirt-blue.JPG" width="90%"></div>
+                <div class="col-md-4"><img src="images/sticker.JPG" width="90%"></div>
+                <div class="col-md-4"><img src="images/shirt-black.JPG" width="90%"></div>
             </div>
         </section>
 
@@ -204,8 +457,8 @@
                         <!-- * * * * * * * * * * * * * * *-->
                         <form class="form-signup mb-5" action="https://formspree.io/f/xoqrpznk" method="POST" id="contactForm">
                             <div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="emailAddress" name="email" type="email" placeholder="Enter email address..." aria-label="Enter email address..." required /></div>
-                                <div class="col-auto"><button class="btn btn-primary" id="submitButton" type="submit">Notify Me!</button></div>
+                                <div class="col-md-8 mb-2"><input class="form-control" id="emailAddress" name="email" type="email" placeholder="Enter email address..." aria-label="Enter email address..." required /></div>
+                                <div class="col-md-4"><button class="btn btn-primary" id="submitButton" type="submit">Notify Me!</button></div>
                             </div>
                             <!--
                             <label>Your email:<input type="email" name="email"></label>
@@ -309,6 +562,7 @@
             });
         </script>
         -->
+        <script src="flickity-docs/flickity.pkgd.min.js"></script>
 
 
         <!-- Bootstrap core JS-->
