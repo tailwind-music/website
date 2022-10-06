@@ -11744,9 +11744,10 @@ body {
   /*background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 45%, rgba(0, 0, 0, 0.8) 100%), url("../images/cover grayscale.jpg");*/
   background-position: center;
   background: url("../images/mobile cover.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+
 }
 
 @media (min-width: 992px) {
@@ -12257,18 +12258,31 @@ body {
           align-items: center;
 }
 
+
 .carousel-cell.rj {
-  height: 700px;
-  /*margin-bottom: 5rem;*/
+  height: 400px;
 }
 
+@media (min-width:  650px) {
+.carousel-cell.rj {
+  height: 500px;
+}
+}
+
+@media (min-width: 1300px) {
+.carousel-cell.rj {
+  height: 750px;
+}
+}
+
+/*
 .carousel-cell.quinn {
   height: 500px;
 }
 
 .carousel-cell.sp {
   height: 650px;
-}
+}*/
 
 .carousel-cell img {
   display: block;
@@ -12295,7 +12309,7 @@ body {
           filter: none;
 }
 
-@media screen and ( min-width: 768px ) {
+/*@media screen and ( min-width: 768px ) {
   .carousel-cell .rj {
     height: 700px;
   }
@@ -12303,13 +12317,13 @@ body {
   .carousel-cell .quinn {
     height: 500px;
   }
-}
+}*/
 
-@media screen and ( min-width: 960px ) {
+/*@media screen and ( min-width: 960px ) {
   .carousel-cell {
     width: 100%;
   }
-}
+}*/
 
 /* buttons, no circle */
 .flickity-prev-next-button {
