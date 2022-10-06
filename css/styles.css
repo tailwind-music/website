@@ -154,6 +154,9 @@ nav {
 }
 }
 
+#about-section img {
+  vertical-align: top;
+}
 
 hr {
   margin: 1rem 0;
