@@ -11746,7 +11746,7 @@ body {
   /*background: linear-gradient(to top, rgba(51,51,51,1) 0%, rgba(51,51,51,1) 10%, rgba(51, 51, 51, .95) 25%, rgba(51,51,51,.8) 35%, rgba(0, 0, 0, 0.1) 100%), url("../images/sp6 edit.jpg");*/
   /*background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 45%, rgba(0, 0, 0, 0.8) 100%), url("../images/cover grayscale.jpg");*/
   background-position: center;
-  background: url("../images/mobile cover.jpg");
+  background: url("../images/mobile cover-min.jpg");
   background-size: auto 100VH;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -11755,7 +11755,7 @@ body {
 
 @media (min-width: 992px) {
   .about-section {
-    background: url("../images/sp6 edit.jpg");
+    background: url("../images/sp6 edit-min.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -11938,7 +11938,7 @@ body {
 .signup-section {
   padding-top: 20VH;
   padding-bottom: 8VH;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 80%, #000 100%), url("../images/mobile end.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 80%, #000 100%), url("../images/mobile end-min.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11948,7 +11948,7 @@ body {
 @media (min-width:  992px) {
 .signup-section {
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 80%, #000 100%), url("../images/quinn grayscale cropped.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 80%, #000 100%), url("../images/quinn grayscale cropped-min.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
