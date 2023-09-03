@@ -413,6 +413,13 @@ button {
   border-radius: 0;
 }
 
+.button {
+  background-color: white;
+  text-decoration: none !important;
+  padding: 8px;
+  border-radius: 5px;
+}
+
 button:focus:not(:focus-visible) {
   outline: 0;
 }
@@ -726,6 +733,29 @@ progress {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+}
+
+.flex-contain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+@media (min-width: 768px) {
+  #where-going {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
+
+.where-we-2 {
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .where-we-2 {
+    text-align: left;
+  }
 }
 
 @media (min-width: 576px) {
@@ -1618,6 +1648,14 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
+
+@media (min-width: 1050px) {
+  .col-xlg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+}
+
 @media (min-width: 1200px) {
   .col-xl {
     flex: 1 0 0%;
@@ -2074,6 +2112,21 @@ progress {
   border-bottom-style: solid;
   border-color: rgba(0,0,0,.5);
   border-width: 1px;
+  background: url("../images/rj1 cropped-min.JPEG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 992px) {
+  .box4-img {
+    display: none;
+  }
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
 }
 
 @media (min-width: 1412px) {
@@ -11606,6 +11659,7 @@ html {
 
 body {
   letter-spacing: 0.0625em;
+  overflow-x: hidden;
 }
 
 #mainNav {
@@ -11745,17 +11799,19 @@ body {
   padding-bottom: 0rem;
   /*background: linear-gradient(to top, rgba(51,51,51,1) 0%, rgba(51,51,51,1) 10%, rgba(51, 51, 51, .95) 25%, rgba(51,51,51,.8) 35%, rgba(0, 0, 0, 0.1) 100%), url("../images/sp6 edit.jpg");*/
   /*background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 45%, rgba(0, 0, 0, 0.8) 100%), url("../images/cover grayscale.jpg");*/
-  background-position: center;
+
   background: url("../images/mobile cover-min.jpg");
   background-size: auto 100VH;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 
 }
 
-@media (min-width: 992px) {
+@media (min-width: 900px) {
   .about-section {
-    background: url("../images/sp6 edit-min.jpg");
+    background: url("../images/sp6-new.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -11766,9 +11822,26 @@ body {
   margin-bottom: 5rem;
 }
 
-.videos iframe {
-    /*width:  100%;
-    height:  200px;*/
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.vid {
+  width:600px;
+  text-align: center;
+}
+
+.vid iframe {
+  width: 90%;
+  aspect-ratio: 1.779;
+  border-radius: 10px;
+}
+
+/*.videos iframe {
+    width:  100%;
+    height:  200px;
     width: 90VW;
     height: 50.6VW;
     border-radius: 10px;
@@ -11779,7 +11852,7 @@ body {
     width: 31VW;
     height: 17.4VW;
   }
-}
+}*/
 
 .new-about-section .row {
   text-align: center;

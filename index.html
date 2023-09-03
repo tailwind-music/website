@@ -91,16 +91,21 @@
                     </p>
                 </div>
 
-                <!--<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/1IfgeKtMZlAaHT9uEWxL5j?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>-->
-
-                <div class="text-white-70 text-center" style="padding-bottom: 85px;">
+                <div class="flex-contain text-white-70 text-center" style="padding-bottom: 85px;">
+                    <div style="width: 400px;">
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/1IfgeKtMZlAaHT9uEWxL5j?utm_source=generator" width="100%" height="355" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                    </div>
+                    <div style="width: 400px; margin-top: 40px;">
+                    <h3 style="color: #64A19D; text-transform: uppercase;">Who We Are</h3>
                     Quinn Brodsky - Vocals <br>
                     Trevor Ewald - Lead Guitar <br>
                     Ray Wynne - Rhythm Guitar <br>
                     Dominik Martinez - Keys <br>
                     Josh Talbot - Bass <br>
                     Marisa Gaetz - Drums
+                    </div>
                 </div>
+
                 <!--
                 <div class="row text-white-70 text-center" style="padding-bottom: 85px;">
                     <div class="col-md-6">Ray Wynne - Rhythm Guitar <br> Josh Talbot - Bass & Trumpet <br> Marisa Gaetz - Drums </div>
@@ -109,12 +114,18 @@
             -->
             </div>
 
-            <div class="row">
+            <div class="video-container">
+                <div class="vid"><iframe src="https://www.youtube.com/embed/tdMedxDkqq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="vid"><iframe src="https://www.youtube.com/embed/PZKvKWE2zGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="vid"><iframe src="https://www.youtube.com/embed/-C5e7zVb-5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div> 
+            </div>
+
+<!--             <div class="row">
                     <div class="col-lg-4 videos video1"><iframe src="https://www.youtube.com/embed/tdMedxDkqq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                     <div class="col-lg-4 videos text-center"><iframe src="https://www.youtube.com/embed/PZKvKWE2zGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                     <div class="col-lg-4 videos video2"><iframe src="https://www.youtube.com/embed/-C5e7zVb-5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div> 
                 </div>
-        </section>
+ -->        </section>
 
 <!-- Blog -->
         <section class="blog-section" id="portfolio">
@@ -123,7 +134,7 @@
             </div>
 
             <div class="row special" style="margin-top:40px">
-                    <div class="col-lg-4 mb-4">
+                    <div class="col-xlg-4 mb-4">
                         <!-- Portfolio item 1-->
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
@@ -138,7 +149,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 mb-4">
+                    <div class="col-xlg-4 mb-4">
                         <!-- Portfolio item 2-->
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
@@ -153,7 +164,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 mb-4">
+                    <div class="col-xlg-4 mb-4">
                         <!-- Portfolio item 3-->
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
@@ -373,11 +384,28 @@
                     <div class="col-lg-6 box2">
                         <div class="bg-black h-100 project">
                             <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-lg-left">
+                                <div class="project-text w-100 my-auto text-lg-left" id="where-going">
                                     <h4 class="text-white text-center mb-4">Where We're Going</h4>
-                                    <p class="text-center text-white-70 where-we">We are currently recording our debut album. Check back soon for more shows!</p><br>
-                                    <!--<p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> <a href="https://www.sofarsounds.com/cities/boston">Sofar Sounds</a> - South Boston, MA - May 21 at 7:30pm</p><br>-->
+                                    <!-- <p class="text-center text-white-70 where-we">We are currently recording our debut album. Check back soon for more shows!</p><br> -->
+                                    <!-- <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> Rockwood Music Hall (w/ Knot Art and brushtroke) - Boston, MA - Nov 4 at 7:00pm</p> <a class="button" href="https://www.seetickets.us/event/Knot-Art-w-special-guests/560830">TICKETS</a> <br> -->
                                     <!--<hr class="d-none d-lg-block mb-0 ms-0" />-->
+
+                                    <div class="row text-white-70 vcenter where-we-2">
+                                        <div class="col-sm-6">
+                                            <b>Nov 4, 2023</b> <br>
+                                            <p style="font-size: 1em;">Rockwood Music Hall</p> 
+                                            <p class="mb-1" style="font-size: .75em;">(w/ Knot Art and brushstroke)</p>
+                                        </div>
+                                        <div class="col-sm-4 mb-1">
+                                            Boston, MA
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <a class="button" href="https://www.seetickets.us/event/Knot-Art-w-special-guests/560830">TICKETS</a>
+                                        </div>
+                                        
+                                    </div>
+
+
                                 </div>
                             </div>
                         </div>
@@ -385,13 +413,16 @@
                 </div>
                 <!-- Project Two Row-->
                 <div class="row gx-0 justify-content-center">
-                    <div class="new-col-lg-6 box4"><img class="img-fluid" src="images/rj1 cropped-min.JPEG" alt="..." /></div>
+                    <div class="new-col-lg-6 box4">
+                        <img class="img-fluid box4-img" src="images/rj1 cropped-min.JPEG" alt="..." /> 
+                    </div>
 
                     <div class="new-col-lg-6 order-lg-first box3">
                         <div class="bg-black h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-lg-right hide-show-1">
                                     <h4 class="text-white text-center mb-4">Where We've Been</h4>
+                                    <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> PeaceWorks Solidarity Roast - Chatham, NJ</p> <p class="alignright text-white-70 where-we">7/8/23</p><br>
                                     <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> Fortland - House Island, ME</p> <p class="alignright text-white-70 where-we">6/17/23</p><br>
                                     <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> Sofar Sounds - South Boston, MA</p> <p class="alignright text-white-70 where-we">5/21/23</p><br>
                                     <p class="alignleft text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> The Jungle - Somerville, MA</p> <p class="alignright text-white-70 where-we">5/20/23</p><br>
@@ -418,6 +449,7 @@
                                 </div>
                                 <div class="project-text w-100 my-auto text-lg-right hide-show-2">
                                     <h4 class="text-white text-center mb-4">Where We've Been</h4>
+                                    <p class="hanging text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> PeaceWorks Solidarity Roast - Chatham, NJ - 7/8/23</p><br>
                                     <p class="hanging text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> Fortland - House Island, ME - 6/17/23</p><br>
                                     <p class="hanging text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> Sofar Sounds - South Boston, MA - 5/21/23</p><br>
                                     <p class="hanging text-white-70 where-we"><i style="font-size:11px; margin-bottom: 4px" class="fa">&#xf1d9;</i> The Jungle - Somerville, MA - 5/20/23</p><br>
