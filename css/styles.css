@@ -11801,10 +11801,10 @@ body {
   /*background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 45%, rgba(0, 0, 0, 0.8) 100%), url("../images/cover grayscale.jpg");*/
 
   background: url("../images/mobile cover-min.jpg");
-  background-size: auto 100VH;
+/*  background-size: auto 100VH;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+/*  background-position: center;*/
   background-size: cover;
 
 }
