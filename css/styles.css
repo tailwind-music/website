@@ -11854,6 +11854,18 @@ body {
   }
 }*/
 
+.lilypad-section {
+  padding-top: 2rem;
+  background: rgba(0,0,0,.8);
+  padding-bottom: 85px;
+  height: 100vh;
+}
+
+.lilypad-section .container {
+  margin-top: 85px;
+}
+
+
 .new-about-section .row {
   text-align: center;
 }
