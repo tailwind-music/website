@@ -11811,7 +11811,7 @@ body {
 
 @media (min-width: 900px) {
   .about-section {
-    background: url("../images/sp6-new.jpg");
+    background: url("../images/sp6-new.jpg");  /*url("../images/brick bg.jpeg");*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
