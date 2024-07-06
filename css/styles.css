@@ -739,6 +739,7 @@ progress {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 @media (min-width: 768px) {
@@ -11708,7 +11709,7 @@ body {
     /*color: rgba(255, 255, 255, 0.5);*/
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: #64a19d; /*rgba(255, 255, 255, 0.75); here here*/
   }
   #mainNav .nav-link:active {
     color: #fff;
@@ -11948,6 +11949,12 @@ body {
 
 .new-about-section p {
   margin-bottom: 10px;
+}
+
+.spotify {
+  width: 400px; 
+  margin-top: 30px; 
+  margin-bottom: 30px;
 }
 
 .merch-section {
